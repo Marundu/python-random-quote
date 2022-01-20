@@ -10,7 +10,7 @@ def get_quote():
     last = 13 
     rnd = random.randint(0, last)
     
-    print(quotes[rnd])
+    print(quotes[rnd], end = "")
 
 if __name__== "__main__":
   get_quote()
